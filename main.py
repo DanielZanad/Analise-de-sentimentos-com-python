@@ -63,3 +63,11 @@ print(tweets_df)
 
 # Ordenar os dados por importancia do sentimento
 tweets_df.sort_values(by='sentimento', ascending=False)
+
+import matplotlib.pyplot as plt
+
+# Cria um grafico de barra com os setimentos 
+plt.figure(1, figsize=(20,6))
+tweets_df.status.value_counts().plot.bar()
+plt.title(f"Status das mensagens (Sentimento) {tweets_df.status.value_counts().plot.bar()}")  
+plt.show()
