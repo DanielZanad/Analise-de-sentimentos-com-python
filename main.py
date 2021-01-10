@@ -56,4 +56,10 @@ for tweet in tweets: # Percorrer cada uma das mensagens retornadas
   else:
     sentimento.append('Indiferente/Neutro')
 
+# Cria DataFrame
+tweets_df = pd.DataFrame(dados, columns = ['usuario', 'tweet', 'sentimento', 'polaridade'])
+tweets_df['status'] = sentimento # Agregamos a coluna status ao DATAFRAME 
+print(tweets_df)
 
+# Ordenar os dados por importancia do sentimento
+tweets_df.sort_values(by='sentimento', ascending=False)
