@@ -1,4 +1,4 @@
-TwitterApi
-pandas 1.2
-textblob 0.15.3
-matplotlib 3.3.3
+TwitterApi =="https://developer.twitter.com/en/docs" 
+pandas==1.2
+textblob==0.15.3
+matplotlib==3.3.3
