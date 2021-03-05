@@ -3,9 +3,9 @@
  que será pesquisado atráves de uma palavra chave
 
 # Blibliotecas utilizadas:
- Tweepy
- pandas
- textblob
- datetime
- matplotlib.pyplot
+ *[Tweepy](https://docs.tweepy.org/en/latest/)
+ *pandas
+ *textblob
+ *datetime
+ *matplotlib.pyplot
  
