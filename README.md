@@ -1,4 +1,4 @@
-# Analise de sentimento com python
+# Analise de sentimento com web scraping em python
  Usando api do twitter para analisar o sentimento expresso no tweets,
  que será pesquisado atráves de uma palavra chave
 
